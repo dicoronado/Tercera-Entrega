@@ -1,0 +1,16 @@
+.navbar {
+    --bs-navbar-padding-y: 0;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: var(--color-principal);
+}
+
+.nav-underline {
+    gap: 5.5rem;
+    --bs-nav-underline-link-active-color: var(--color-principal);
+    --bs-nav-link-color: var(--color-principal);
+    --bs-nav-link-hover-color: var(--color-principal);
+    --bs-nav-link-disabled-color: var(--color-principal);
+}
